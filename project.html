@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>案例详情 | 个人设计库</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html"><img src="assets/profile/logo.png" alt="Janson 标志"><span><b>Janson</b><small>包装设计师</small></span></a>
+    <button class="menu-toggle" aria-expanded="false">MENU</button>
+    <nav class="site-nav">
+      <a href="index.html"><span>主页</span>HOME</a>
+      <a class="active" href="works.html"><span>工作</span>WORKS</a>
+      <a href="about.html"><span>关于</span>ABOUT</a>
+      <a href="contact.html"><span>联系</span>CONTACT</a>
+    </nav>
+  </header>
+  <div class="page-label"><span>作品详情</span>PROJECT DETAIL</div>
+  <main>
+    <header class="project-header">
+      <h1 id="project-name"></h1>
+      <dl class="project-meta">
+        <div><dt>项目类型</dt><dd id="project-category"></dd></div>
+        <div><dt>项目时间</dt><dd id="project-year"></dd></div>
+        <div><dt>项目编号</dt><dd id="project-number"></dd></div>
+        <div><dt>设计服务</dt><dd>视觉与包装设计</dd></div>
+      </dl>
+    </header>
+    <section class="project-gallery" id="project-gallery"></section>
+    <nav class="project-navigation">
+      <a id="project-prev" href="#"></a>
+      <a href="works.html">返回作品</a>
+      <a id="project-next" href="#"></a>
+    </nav>
+  </main>
+  <script src="works-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

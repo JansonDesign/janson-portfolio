@@ -1,0 +1,21 @@
+# Local design references and generated previews
+参考站*
+*预览.png
+新版*.png
+个人资料页_桌面.png
+作品标题识别总览.jpg
+
+# Local inspection and verification utilities
+inspect_*.js
+make_title_contact_sheet.js
+verify.js
+项目记录.md
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Vercel local state
+.vercel/
